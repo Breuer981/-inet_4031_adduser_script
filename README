@@ -1,0 +1,20 @@
+# inet_4031_addusers_script
+
+## Program Description
+
+Allows the user to quickly create new accounts.
+
+## Program Operation
+
+1. **Input File (`create-users.input`)**:
+   Should cotain the following seperate by colons:
+   - Username
+   - Password
+   - Last Name
+   - First Name
+   - Groups
+
+2. **Usage**:
+   To run the script, use command:
+
+   sudo ./create-users.py < create-users.input
